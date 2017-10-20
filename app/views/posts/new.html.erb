@@ -1,5 +1,6 @@
-<h1>Create New Post</h1>
-<%= form_for(@post) do |f| %>
+<div id="page_wrapper">
+  <h1>Create New Post</h1>
+  <%= form_for(@post) do |f| %>
     <div>
       <%= f.label :title %> <br>
       <%= f.text_field :title %>
@@ -11,5 +12,7 @@
     <div>
       <%= f.submit %>
     </div>
-<% end %>
+  <% end %>
+</div>
+
   
