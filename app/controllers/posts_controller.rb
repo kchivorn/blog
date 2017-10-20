@@ -18,7 +18,7 @@ class PostsController < ApplicationController
       redirect_to @post
     else
       flash[:danger] = t('posts.failed')
-      redirect_to :new
+      render :new
     end
   end
 
