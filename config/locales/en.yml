@@ -32,4 +32,5 @@
 en:
   posts:
     created: Post is successfully created!
+    updated: Post is successfully updated!
     failed: Post failed to be created!
